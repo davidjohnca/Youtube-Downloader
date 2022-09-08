@@ -1,2 +1,2 @@
 # Youtube-Downloader
-How to downloade any video from YouTube with Python using pytube
+How to download any video from YouTube with Python using pytube
