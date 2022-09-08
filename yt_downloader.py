@@ -6,15 +6,15 @@ import ssl
 
 ssl._create_default_https_context = ssl._create_stdlib_context
 
-''' Create a link variable for the user to input 
-the url where they want to download the video from '''
+''' Create a link variable where you can input 
+the url of the video you want to download '''
 
 link = str(input('Enter your link: '))
 print('Please wait...')
 
 yt = YouTube(link)
 
-''' With the following method you are able to
+''' With the following methods you are able to
 get the highest resolution available and then 
 download the video '''
 
